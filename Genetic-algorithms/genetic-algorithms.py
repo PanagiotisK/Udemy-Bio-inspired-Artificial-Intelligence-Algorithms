@@ -157,6 +157,26 @@ for row in open('Genetic-algorithms/flights.txt'):
 
 # TEST
 
+
+'''
+in print_schedule we send an array , 
+and every two elements re grouped in way
+that shows the TO and FROM each city.
+Now we have 6 cities (LIS, MAD, CDG, DUB, BRU, LHR), 
+so in order to cover all flights,
+we must have 12 elements in the array.
+
+print_schedule([    LIS->FCO[i]  , FCO->LIS[i]  ,  
+                    MAD->FCO[i]  , FCO->MAD[i]  ,  
+                    CDG->FCO[i]  , FCO->CDG[i]  ,  
+                    DUB->FCO[i]  , FCO->DUB[i]  ,
+                    BRU->FCO[i]  , FCO->BRU[i]  ,
+                    LHR->FCO[i]  , FCO->LHR[i] 
+                ]) 
+
+data preparation is needed in order to know the amount of each from-to combination ,
+and now we have 10 flights per day between 2 cities, so the values (i) for each element is between 0-9
+'''
 # print_schedule([1,4, 3,1, 8,3, 6,3, 2,4, 5,3])
 # fitness_function([1,4, 3,1, 8,3, 6,3, 2,4, 5,3])
 # print_schedule([1,1, 1,1, 7,3])
