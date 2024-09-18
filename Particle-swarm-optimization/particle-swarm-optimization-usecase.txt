@@ -1,0 +1,40 @@
+A course will be ministered on Monday, Tuesday and Wednesday. Has 13 hours in total.
+3 classes are interested in enrolling the course, but each class has specific available time slots
+
+MM / Monday Morning
+MA / Monday Afternoon
+TM / Tuesday Morning
+TA / Tuesday Afternoon
+WM / Wednesday Morning
+WA / Wednesday Afternoon
+
+Class 1
+    3h MM
+    2h MA
+    1h TM
+    2h TA
+    3h WM
+    2.5h WA
+
+Class 2
+    1h MM
+    4h MA
+    0h TM
+    3h TA
+    4h WM
+    1.5h WA
+
+Class 3
+    2.5h MM
+    3.5h MA
+    1h TM
+    2.5h TA
+    3.5h WM
+    1.5h WA
+
+
+ScoreClass1 = (scoreMM + scoreMA) + (scoreTM + scoreTA) + (scoreWM + scoreWA)
+ScoreClass2 = (scoreMM + scoreMA) + (scoreTM + scoreTA) + (scoreWM + scoreWA)
+ScoreClass3 = (scoreMM + scoreMA) + (scoreTM + scoreTA) + (scoreWM + scoreWA)
+
+OverallScore = ScoreClass1 + ScoreClass2 + ScoreClass3 / 39
