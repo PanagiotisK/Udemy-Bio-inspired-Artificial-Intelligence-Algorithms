@@ -1,0 +1,17 @@
+Dendrites       - recieve data from other neurons
+
+Cell Body    - processes data
+
+Axon            - transmits signals to other neurons using Axon terminals
+
+Synapse         -  complete transmission of information (electrical signals)
+
+---
+
+In biology, when a Synapse occurs chemical substances are released by neurons 
+and these chemical substances enter the Dendrites, increasing or decreasing the electrical potential
+of the cell body, so the informational process in a biological neuron is given by the electrical potential
+which will then leads to decision making.
+
+---
+
