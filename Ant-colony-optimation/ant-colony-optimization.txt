@@ -1,0 +1,5 @@
+Can approach salesman problem
+
+Ants are searching 2D and are releasing pherormons
+
+Pheromon update - evaporation
